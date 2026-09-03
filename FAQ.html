@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FAQ — Ответы на частые вопросы</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Подключаем шрифты и общий CSS -->
+</head>
+<body>
+
+    <!-- ========== ШАПКА (идентична главной) ========== -->
+    <header class="header">
+        <div class="header__container">
+            <div class="header__logo">
+                <img src="assets/logo.png" alt="Логотип" class="logo-img" />
+                <span class="logo-text">Landing Page</span>
+            </div>
+            <nav class="header__nav">
+                <ul class="nav-list">
+                    <li><a href="LPMain.html" class="nav-link">Главная</a></li>
+                    <li><a href="LPMain.html#tariffs" class="nav-link">Тарифы</a></li>
+                    <li><a href="err.html" class="nav-link">Отзывы</a></li>
+                    <li><a href="#" class="nav-link active">FAQ</a></li>
+                </ul>
+            </nav>
+            <a href="LPMain.html#tariffs" class="btn btn--header">Оставить заявку</a>
+        </div>
+    </header>
+
+    <!-- ========== ОСНОВНОЕ СОДЕРЖИМОЕ ========== -->
+    <main>
+
+        <!-- БЛОК 1. ЗАГОЛОВОК СТРАНИЦЫ (без картинки) -->
+        <section class="block block--centered" style="min-height: 40vh; background: linear-gradient(135deg, var(--bg-light) 0%, var(--yellow-light2) 100%);">
+            <div class="block__content" style="text-align: center; max-width: 800px; margin: 0 auto;">
+                <h1 class="block__title">Ответы на частые вопросы</h1>
+                <p class="block__subtitle" style="font-size: 1.3rem; color: #555;">
+                    Коротко и по делу. Если не нашёл свой вопрос — напиши мне в личные сообщения, я отвечу.
+                </p>
+            </div>
+        </section>
+
+        <!-- БЛОК 2. СПИСОК ВОПРОСОВ-ОТВЕТОВ (аккордеон) -->
+        <section class="block" style="background-color: #fff; min-height: auto; padding: 60px 20px;">
+            <div class="block__content" style="max-width: 800px; margin: 0 auto; width: 100%;">
+                <div class="faq-list">
+                    <!-- Вопрос 1 -->
+                    <details class="faq-item" open>
+                        <summary class="faq-item__question">У меня никогда не было сайта. Мне будет сложно?</summary>
+                        <div class="faq-item__answer">
+                            <p>Нет. Всё делаю я. Ты только рассказываешь о своём деле, а я создаю страницу, которая работает на тебя. Тебе не нужно разбираться в коде, дизайне или текстах — я беру всё на себя.</p>
+                        </div>
+                    </details>
+
+                    <!-- Вопрос 2 -->
+                    <details class="faq-item">
+                        <summary class="faq-item__question">Сколько времени занимает создание сайта?</summary>
+                        <div class="faq-item__answer">
+                            <p>Всё зависит от тарифа:</p>
+                            <ul>
+                                <li><strong>«Сайт по макету»</strong> — 3–5 дней.</li>
+                                <li><strong>«Личная разработка»</strong> — 7–10 дней.</li>
+                            </ul>
+                            <p>Сроки считаются с момента, когда мы утвердили задачу и ты прислал все материалы (тексты, фото, логотип).</p>
+                        </div>
+                    </details>
+
+                    <!-- Вопрос 3 -->
+                    <details class="faq-item">
+                        <summary class="faq-item__question">Что мне нужно предоставить для старта?</summary>
+                        <div class="faq-item__answer">
+                            <p>Минимальный набор:</p>
+                            <ul>
+                                <li>Твои контакты (на которые будут приходить заявки — email или телефон).</li>
+                                <li>Несколько фото (твои работы, товары или твой портрет).</li>
+                                <li>Основная информация о том, что ты предлагаешь.</li>
+                            </ul>
+                            <p>Всё остальное я додумываю и дописываю сам. Если чего-то нет — помогу подобрать или создать.</p>
+                        </div>
+                    </details>
+
+                    <!-- Вопрос 4 -->
+                    <details class="faq-item">
+                        <summary class="faq-item__question">А если мне не понравится дизайн?</summary>
+                        <div class="faq-item__answer">
+                            <p>В тарифе <strong>«Личная разработка»</strong> — неограниченное количество правок до тех пор, пока ты не скажешь «идеально».</p>
+                            <p>В тарифе <strong>«Сайт по макету»</strong> — я адаптирую готовый макет под твой стиль: меняю цвета, шрифты, блоки. Если нужно больше изменений — всегда можно перейти на личную разработку.</p>
+                        </div>
+                    </details>
+
+                    <!-- Вопрос 5 -->
+                    <details class="faq-item">
+                        <summary class="faq-item__question">Какие гарантии?</summary>
+                        <div class="faq-item__answer">
+                            <p>Я работаю на совесть. Если после запуска сайт не приносит клиентов — я дорабатываю его бесплатно до результата. Мне важно, чтобы ты был доволен и получал заявки.</p>
+                        </div>
+                    </details>
+
+                    <!-- Вопрос 6 -->
+                    <details class="faq-item">
+                        <summary class="faq-item__question">Мне нужен сайт не для бизнеса, а просто для себя. Подойдёт?</summary>
+                        <div class="faq-item__answer">
+                            <p>Да. Это может быть личная страница-портфолио, страница с твоими услугами, или просто красивая визитка в интернете. Я делаю сайты для любых целей.</p>
+                        </div>
+                    </details>
+
+                    <!-- Вопрос 7 -->
+                    <details class="faq-item">
+                        <summary class="faq-item__question">А как я буду получать заявки с сайта?</summary>
+                        <div class="faq-item__answer">
+                            <p>Я настраиваю формы на сайте так, чтобы заявки приходили тебе на почту или в Telegram (куда удобнее). Всё настраивается под тебя.</p>
+                        </div>
+                    </details>
+
+                    <!-- Вопрос 8 -->
+                    <details class="faq-item">
+                        <summary class="faq-item__question">Сколько это стоит? Дорого?</summary>
+                        <div class="faq-item__answer">
+                            <p>Цена зависит от выбранного тарифа:</p>
+                            <ul>
+                                <li><strong>«Сайт по макету»</strong> — фиксированная, доступная цена.</li>
+                                <li><strong>«Личная разработка»</strong> — обсуждается индивидуально.</li>
+                            </ul>
+                            <p>Стоимость одного нового клиента может окупить сайт за неделю. Это инвестиция, а не расход.</p>
+                        </div>
+                    </details>
+
+                    <!-- Вопрос 9 -->
+                    <details class="faq-item">
+                        <summary class="faq-item__question">Могу ли я сам менять текст или фото после запуска?</summary>
+                        <div class="faq-item__answer">
+                            <p>Да. Я даю тебе доступ к панели управления, где ты можешь менять тексты, фото и любую информацию. Если нужна помощь — просто напиши мне.</p>
+                        </div>
+                    </details>
+
+                    <!-- Вопрос 10 -->
+                    <details class="faq-item">
+                        <summary class="faq-item__question">Что делать, если у меня есть вопросы, которых нет в списке?</summary>
+                        <div class="faq-item__answer">
+                            <p>Просто напиши мне в личные сообщения — я отвечу в тот же день. Всегда на связи.</p>
+                        </div>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <!-- БЛОК 3. ПРИЗЫВ К ДЕЙСТВИЮ (используем стили CTA с главной) -->
+        <section class="cta" style="background-color: var(--bg-dark); color: var(--text-dark); text-align: center; padding: 60px 20px; min-height: auto;">
+            <h2 class="block__title" style="color: var(--yellow);">Остались вопросы?</h2>
+            <p class="block__subtitle" style="color: var(--text-dark); font-size: 1.3rem; max-width: 700px; margin: 0 auto 20px;">
+                Посмотри тарифы на главной или просто напиши мне. Я всегда на связи.
+            </p>
+            <a href="LPMain.html#tariffs" class="btn btn--primary">Перейти к тарифам</a>
+        </section>
+
+    </main>
+
+    <!-- ========== ПОДВАЛ (идентичен главной) ========== -->
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__logo">
+                <img src="assets/logo.png" alt="Логотип" class="logo-img" />
+                <span class="logo-text">Landing Page</span>
+            </div>
+            <nav class="footer__nav">
+                <ul class="nav-list">
+                    <li><a href="LPMain.html" class="nav-link">Главная</a></li>
+                    <li><a href="LPMain.html#tariffs" class="nav-link">Тарифы</a></li>
+                    <li><a href="err.html" class="nav-link">Отзывы</a></li>
+                    <li><a href="faq.html" class="nav-link">FAQ</a></li>
+                </ul>
+            </nav>
+            <div class="footer__legal">
+                <p>2026 Все права защищены</p>
+            </div>
+            <p class="footer__slogan">Сайт создан для тех, кто хочет больше клиентов</p>
+        </div>
+    </footer>
+
+</body>
+</html>
